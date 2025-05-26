@@ -22,11 +22,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full shadow-md bg-white">
+<nav className="fixed top-0 left-0 w-full shadow-md bg-white-500 bg-opacity-40 backdrop-blur-md z-50 transition-all duration-300">
       <div className="flex justify-between items-center px-4 sm:px-12 py-4">
         {/* Logo */}
         <div>
-          <img src={Logo} alt="MainLogo" className="w-[100px]" />
+          {/*<img src={Logo} alt="MainLogo" className="w-[100px]" />*/}
+          <h10>Graffiti Costa Rica</h10>
         </div>
 
         {/* Botón hamburguesa (solo visible en mobile) */}
