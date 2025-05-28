@@ -3,9 +3,9 @@ import Logo from '../../assets/logo.png';
 
 // Enlaces principales del sitio
 const NavbarLinks = [
-  { id: 1, title: 'Main', linkR: '/' },
-  { id: 2, title: 'Writers', linkR: '/' },
-  { id: 3, title: 'Crews', linkR: '/' },
+  { id: 1, title: 'Main', linkR: '#main' },
+  { id: 2, title: 'Writers', linkR: '#writers' },
+  { id: 3, title: 'Crews', linkR: '#crews' },
 ];
 
 // Redes sociales
